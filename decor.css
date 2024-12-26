@@ -1,0 +1,104 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background: radial-gradient(
+        circle,
+        rgba(77,14,203,1)0%,
+        rgba(255,255,255,1)100%
+        );
+        display:flex;
+        align-items:center ;
+        justify-content: center;
+        height:100vh ;
+        overflow:hidden;
+        font-family:"Poppins",sans-serif;
+}
+.quiz-container{
+    background-color: aquamarine;
+    border-radius:10px;
+    box-shadow:0 0 10px 2px rgba(100,100,100,0.1) ;
+    max-width: 600px;
+    width:100%;
+}
+.quiz-header{
+   display: flex; 
+   align-items: center;
+   padding: 2rem;
+   box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+}
+.quiz-header h2{
+    font-size: 1.5rem;
+}
+.quiz-body{
+    padding: 2rem;
+}
+.quiz-body h2{
+    font-size: 2rem;
+    padding: 1rem 0;
+    font-weight: 500;
+    text-align: center;
+}
+.quiz-body ul{
+    list-style: none;
+}
+.quiz-body ul li{
+    font-size: 1rem;
+    border: 1px solid #aab7b8;
+    padding: 0.7rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in, color 0.3s ease-in;
+}
+.quiz-body ul li:hover{
+    background-color: rgba(77, 14, 203, 0.1);
+    color: #111;
+}
+
+.quiz-body ul li label{
+   cursor: pointer;
+    padding: 0 0.4rem;
+}
+.quiz-footer{
+    display: flex;
+    align-items:center ;
+    justify-content:space-between;
+    padding:1rem 3rem ;
+    box-shadow:0px 0px 5px rgba(0,0,0,0.5);
+}
+.quiz-footer button{
+    padding:0.6rem 1.5rem;
+    background: #111;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+    font-family: inherit;
+    border-radius: 5px;
+    color: #fff;
+    transition: all 0.3s ease-in;
+    opacity: 0.9;
+}
+
+.quiz-footer button:hover{
+    opacity:1 ;
+}
+.quiz-body button{
+    padding:0.6rem 1.5rem;
+    background: #111;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+    font-family: inherit;
+    border-radius: 5px;
+    color: #fff;
+    transition: all 0.3s ease-in;
+    opacity: 0.9;
+    display: block;
+    margin: auto;
+}
+
