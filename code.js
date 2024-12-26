@@ -1,5 +1,4 @@
 "use strict";
-console.log("hi");
 const quizData=[
     {
         question:"How many minutes are in a full week?",
