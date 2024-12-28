@@ -26,12 +26,12 @@ A simple, interactive quiz game built using HTML, CSS, and JavaScript. This proj
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/your-username/quiz-game.git
+    git clone https://github.com/Dinesh14-03/Quiz-Game.git
     ```
 
 2. Navigate to the project folder:
     ```bash
-    cd quiz-game
+    cd Quiz-Game
     ```
 
 3. Open the `index.html` file in your web browser:
@@ -62,26 +62,7 @@ quiz-game/
 
 ---
 
-## Contributing
 
-Contributions are welcome! If you have ideas to improve this project, feel free to fork the repository and submit a pull request.
-
-1. Fork the repository.
-2. Create a new branch:
-    ```bash
-    git checkout -b feature-name
-    ```
-3. Commit your changes:
-    ```bash
-    git commit -m "Added new feature"
-    ```
-4. Push to the branch:
-    ```bash
-    git push origin feature-name
-    ```
-5. Open a pull request.
-
----
 
 ## License
 
