@@ -50,6 +50,13 @@ A simple, interactive quiz game built using HTML, CSS, and JavaScript. This proj
 
 ---
 
+## Screenshots
+### Questions
+![image](https://github.com/user-attachments/assets/f2a4fe87-40d3-4c0e-aa71-6020b4c02569)
+
+### Score Calculations
+![image](https://github.com/user-attachments/assets/e7766d71-19a2-46cc-be46-996a218a2d9a)
+
 ## File Structure
 
 ```
